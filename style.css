@@ -1,8 +1,10 @@
 #head{
+	font-size:25px;
 	color:red;
 	text-align:center;
 }
 #main{
+	font-size:10px;
 	color:blue;
 	text-align: center;
 }

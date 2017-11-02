@@ -12,7 +12,7 @@ newT.innerHTML = title.value;
 var section = document.getElementById("main");
 var head = document.getElementById("head");
 
-section.append(newT);
+head.append(newT);
 section.append(newP);
 input.value = "";
 title.value = "";
@@ -20,7 +20,7 @@ title.value = "";
 var deleteButton = document.createElement("button");
 deleteButton.innerHTML = "Delete";
 deleteButton.addEventListener("click",function(){
-	section.removeChild(newT);
+	head.removeChild(newT);
 	section.removeChild(newP);
 	section.removeChild(deleteButton);})
 section.append(deleteButton);
