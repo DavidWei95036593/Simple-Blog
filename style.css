@@ -1,3 +1,8 @@
-html{
-  color:red;
+#head{
+	color:red;
+	text-align:center;
+}
+#main{
+	color:blue;
+	text-align: center;
 }
