@@ -15,7 +15,9 @@ section.append(newP);
 var deleteButton = document.createElement("button");
 deleteButton.innerHTML = "Delete";
 deleteButton.addEventListener("click",function(){
-	section.removeChild(newT)})
+	section.removeChild(newT);
+	section.removeChild(newP);
+	section.removeChild(deleteButton);})
 section.append(deleteButton);
 
 })
