@@ -1,11 +1,11 @@
 var button = document.getElementById("createblog");
 button.addEventListener("click",function(){
 
-var input = document.getElementById("text")
+var input = document.getElementById("textarea")
 var newP = document.createElement("p");
 newP.innerHTML = input.value;
 
-var title = document.getElementById("title");
+var title = document.getElementById("maintitle");
 var newT = document.createElement("t");
 newT.innerHTML = title.value;
 
@@ -14,6 +14,7 @@ var head = document.getElementById("head");
 
 head.append(newT);
 section.append(newP);
+
 input.value = "";
 title.value = "";
 
@@ -23,6 +24,6 @@ deleteButton.addEventListener("click",function(){
 	head.removeChild(newT);
 	section.removeChild(newP);
 	section.removeChild(deleteButton);})
-section.append(deleteButton);
+  section.append(deleteButton);
 
 })
