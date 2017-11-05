@@ -11,16 +11,14 @@ var newT = document.createElement("t");
 newT.innerHTML = title.value;
 var t1 = document.getElementById("head");
 
-var exception = document.getElementById("error");
-var	Ex = document.createElement("E");
-Ex.innerHTML = exception.value
-var E = document.getElementById("error")
 
+var Ex = document.getElementById("error");
 
-if(input.value === "" && title.value ===""){
-	console.log("hi")
-	Ex.append("hi");
-
+var numoftime = "0";
+if(input.value === "" && title.value ==="" ){
+	if(numoftime ==="0"){
+	Ex.append("You have to text something to be able to post");
+	}numoftime = "1";
 }
 	else{
 t1.append(newT);
