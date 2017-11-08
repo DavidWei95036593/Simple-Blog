@@ -11,6 +11,12 @@
 #error{
 	color:red;
 }
+*::-webkit-input-placeholder {
+    color: darkorange;
+}
+
+
+
 html{
   background:-webkit-linear-gradient(green,lightgreen);
 }
