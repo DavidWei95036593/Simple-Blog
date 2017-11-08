@@ -45,7 +45,7 @@ section.pandas{
 font-family: 'Sumana', serif;
 	}
 section.dogs{
-	color:GreenYellow  ;
+	color:brown  ;
 font-family: 'Saira Semi Condensed', sans-serif;
 }
 
@@ -77,10 +77,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-#secondfood{
-  position: relative;
-  background-image: url("img/noodle.jpg")
-}
+
 
 #firstfood{
 position:relative;
@@ -94,9 +91,7 @@ position:relative;
 #friedchicken{
   color:gold;
 }
-#friednoodles{
-  color:yellow;
-}
+
 #chocolatebis{
   color:chocolate;
 }
