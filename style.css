@@ -17,6 +17,15 @@ html{
 .hidden{
 	display:none;
 }
-unhide{
+.unhide{
 	display:block;
+}
+button{
+	border-radius: 5px;
+}
+input{
+	text-align: center;
+}
+textarea{
+	text-align: center;
 }

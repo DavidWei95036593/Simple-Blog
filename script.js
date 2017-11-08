@@ -1,20 +1,20 @@
-var button = document.getElementById("createblog");
+let button = document.getElementById("createblog");
 button.addEventListener("click",function(){
 
-var input = document.getElementById("textarea")
-var newP = document.createElement("p");
+let input = document.getElementById("textarea")
+let newP = document.createElement("p");
 newP.innerHTML = input.value;
-var section = document.getElementById("main");
+let section = document.getElementById("main");
 
-var title = document.getElementById("maintitle");
-var newT = document.createElement("t");
+let title = document.getElementById("maintitle");
+let newT = document.createElement("t");
 newT.innerHTML = title.value;
-var t1 = document.getElementById("head");
+let t1 = document.getElementById("head");
 
 
-var Ex = document.getElementById("error");
+let Ex = document.getElementById("error");
 
-var numoftime = "0";
+let numoftime = "0";
 if(input.value === "" && title.value ==="" ){
 	if(numoftime ==="0"){
 	Ex.append("You have to text something to be able to post");
@@ -27,7 +27,7 @@ section.append(newP);
 input.value = "";
 title.value = "";
 
-var deleteButton = document.createElement("button");
+let deleteButton = document.createElement("button");
 deleteButton.innerHTML = "Delete";
 deleteButton.addEventListener("click",function(){
 	t1.removeChild(newT);
@@ -43,6 +43,7 @@ deleteButton.addEventListener("click",function(){
 
 function hideAll(){
   const sections = document.querySelectorAll("section.tabs");
+  console.log(sections);
   for(let i = 0; i < sections.length; i++){
     if(!sections[i].className.match(" hidden")){
         sections[i].className += " hidden";
