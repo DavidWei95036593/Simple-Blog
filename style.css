@@ -29,3 +29,81 @@ input{
 textarea{
 	text-align: center;
 }
+section.about{
+color:white ;
+font-family: 'Open Sans Condensed', sans-serif;
+
+
+}
+section.pandas{
+	color:black ;
+font-family: 'Sumana', serif;
+	}
+section.dogs{
+	color:GreenYellow  ;
+font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+p{font-size:30px;}
+
+#second{
+	text-align: center;
+}
+
+
+
+
+
+
+
+body{
+  margin:0;
+  padding:0;
+}
+
+
+.pic{
+    position:relative;
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#secondfood{
+  position: relative;
+  background-image: url("img/noodle.jpg")
+}
+
+#firstfood{
+position:relative;
+  background-image: url("img/chicken.jpg");
+}
+
+#thirdfood{
+  position:relative;
+  background-image:url("img/ck.jpg");
+}
+#friedchicken{
+  color:gold;
+}
+#friednoodles{
+  color:yellow;
+}
+#chocolatebis{
+  color:chocolate;
+}
+h2{
+  color:white;
+  position:absolute;
+  top:250px;
+  text-align: center;
+  width:100%;
+}
+
+.description{
+  font-size:20px;
+  margin: 100px;
+}
